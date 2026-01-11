@@ -39,10 +39,11 @@ btn_normal_battle_to_blasters = ttk.Button(main_frame, text="Normal Battle to Bl
 btn_normal_battle_to_blasters.grid(row=1, column=0, padx=10, pady=10)
 
 # Credits
-credits_label = ttk.Label(root, text="Credit:\nWadi (GUI)\nMath_kk (OG script)")
+credits_label = ttk.Label(root, text="Credit:\Mikki (GUI)\nMath_kk (OG script)")
 credits_label.grid(row=1, column=0, sticky="se", padx=10, pady=10)
 
 root.update()
 root.geometry('{}x{}'.format(initial_width * 3, initial_height * 3))
 
 root.mainloop()
+
